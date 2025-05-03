@@ -89,8 +89,8 @@ const onMessage = async (senderId, message) => {
         botly.sendImage({id: senderId, url: "https://i.ibb.co/d2TxPkf/gensharebot.png"}, (err, data) => {
           botly.sendButtons({
               id: senderId,
-              text: "تم تحديد رابط 🔗\nهل تريد تجربة صفحتنا لتحميل الفيديوهات 🎥 بإستعمال الرابط ؟ 🙆🏻‍♂️.\nالصفحة :\nfacebook.com/Sharebotapp",
-              buttons: [botly.createWebURLButton("Messenger 💬", "m.me/Sharebotapp/")],
+              text: "نشكرك على تجربة أحد بوتاتنا التي لا تزال قيد التطوير 🌟 \n رابط المطور:https://www.facebook.com/IHAB754KORA \n نتمنى دعمكم 🌟",
+              buttons: [botly.createWebURLButton("Messenger 💬", "m.me/100000302997196/ ")],
             });
       });
     });
@@ -107,15 +107,15 @@ const onMessage = async (senderId, message) => {
             /*
             botly.sendButtons({
               id: senderId,
-              text: text + "\n\n\n- - - ------( 📣💬💻 )------ - - -\nلضمان متابعة تقديم الخدمة يرجى دعمنا بمتابعة حساب صاحب الصفحة :\nhttps://facebook.com/0xNoti",
+              text: text + "\n\n\n- - - ------( 🔊🗨️🖥️ )------ - - -\nلضمان متابعة تقديم الخدمة يرجى دعمنا بمتابعة حساب صاحب الصفحة :https://www.facebook.com/Koi8977",
               buttons: [
-                botly.createPostbackButton("تغيير اللغة 🇺🇲🔄", "ChangeLang"),
+                botly.createPostbackButton("تغيير اللغة 🇨🇦🔄", "ChangeLang"),
               ],
             });
             */
-            botly.sendText({id: senderId, text: text + "\n\n\nهذه ترجمة من 360 Translate 💬.",
+            botly.sendText({id: senderId, text: text + "\n\n\nهذه ترجمة من Bot Dokim 💬.",
                 quick_replies: [
-                    botly.createQuickReply("تغيير اللغة 🇺🇲🔄", "ChangeLang")]});
+                    botly.createQuickReply("تغيير اللغة 🇨🇦🔄", "ChangeLang")]});
           });
           }, error => {
             console.log(error)
@@ -133,15 +133,15 @@ const onMessage = async (senderId, message) => {
                     /*
                   botly.sendButtons({
                     id: senderId,
-                    text: text + "\n\n\n- - - ------( 📣💬💻 )------ - - -\nلضمان متابعة تقديم الخدمة يرجى دعمنا بمتابعة حساب صاحب الصفحة :\nhttps://facebook.com/0xNoti",
+                    text: text + "\n\n\n- - - ------( 🔊🗨️🖥️ )------ - - -\nلضمان متابعة تقديم الخدمة يرجى دعمنا بمتابعة حساب صاحب الصفحة :https://www.facebook.com/Koi8977",
                     buttons: [
-                      botly.createPostbackButton("تغيير اللغة 🇺🇲🔄", "ChangeLang"),
+                      botly.createPostbackButton("تغيير اللغة 🇨🇦🔄", "ChangeLang"),
                     ],
                   });
                   */
-                  botly.sendText({id: senderId, text: text + "\n\n\nهذه ترجمة من 360 Translate 💬.",
+                  botly.sendText({id: senderId, text: text + "\n\n\nهذه ترجمة من Bot Dokim 💬.",
                     quick_replies: [
-                      botly.createQuickReply("تغيير اللغة 🇺🇲🔄", "ChangeLang")]});
+                      botly.createQuickReply("تغيير اللغة 🇨🇦🔄", "ChangeLang")]});
                 });
                     }, error => { console.log(error) })
                   });
@@ -155,12 +155,12 @@ const onMessage = async (senderId, message) => {
       botly.sendImage({id: senderId, url: "https://i.ibb.co/QjbwQPg/gentorjman2.png"}, (err, data) => {
           botly.sendButtons({
               id: senderId,
-              text: "لا يمكنني ترجمة الصور 🤷🏻‍♂️🙄\nلكن يمكنك تجربة صفحتنا الثانية لترجمة الصور 😁.\nالصفحة :\nfacebook.com/Torjman2",
+              text: "لا يمكنني ترجمة الصور 😅\nلكن يمكنك تجربة صفحتنا الثانية للذكاء الاصطناعي ستورم 🍷.\nالصفحة :\nhttps://www.facebook.com/100085184553350",
               buttons: [botly.createWebURLButton("Messenger 💬", "m.me/Torjman2/")],
             });
       });
     } else if (message.message.attachments[0].type == "audio" || message.message.attachments[0].type == "video") {
-      botly.sendText({id: senderId, text: "لا يمكنني ترجمة الوسائط 🎥 للأسف! إستعمل النصوص فقط 😐"});
+      botly.sendText({id: senderId, text: "لا يمكنني ترجمة الوسائط 🎥 للأسف! إستعمل النصوص فقط 😔"});
     }
   });
 
@@ -176,11 +176,11 @@ const onPostBack = async (senderId, message, postback) => {
         botly.send({
             "id": senderId,
             "message": {
-            "text": "من فضلك إختر اللغة التي تريد ان اترجم لك لها 🔁🌐",
+            "text": "من فضلك إختر اللغة التي تريد ان اترجم لك لها 🔁🗺️",
             "quick_replies":[
               {
                 "content_type":"text",
-                "title":"Arabic 🇩🇿",
+                "title":"Arabic 🇪🇬",
                 "payload":"ar",
               },{
                 "content_type":"text",
@@ -247,11 +247,11 @@ const onPostBack = async (senderId, message, postback) => {
         botly.send({
             "id": senderId,
             "message": {
-            "text": "من فضلك إختر اللغة التي تريد ان اترجم لك لها 🔁🌐",
+            "text": "من فضلك إختر اللغة التي تريد ان اترجم لك لها 🔁🗺️",
             "quick_replies":[
               {
                 "content_type":"text",
-                "title":"Arabic 🇩🇿",
+                "title":"Arabic 🇪🇬",
                 "payload":"ar",
               },{
                 "content_type":"text",
@@ -309,7 +309,7 @@ const onPostBack = async (senderId, message, postback) => {
       await updateUser(senderId, {lang: postback })
       .then((data, error) => {
         if (error) { botly.sendText({id: senderId, text: "حدث خطأ"}); }
-        botly.sendText({id: senderId, text: "تم تغيير اللغة بنجاح 😀🌍"});
+        botly.sendText({id: senderId, text: "تم تغيير اللغة بنجاح 😏🌍"});
       });
      }
   }
